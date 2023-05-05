@@ -1,0 +1,21 @@
+.red-box {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  margin: 10px;
+  position: relative;
+}
+
+.pop-over {
+  position: absolute;
+  background-color: yellow;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
